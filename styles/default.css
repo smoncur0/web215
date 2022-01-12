@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+html {
+   font-size: 100%;
+   font-family:  Calibri;
+   background-color: rgba(136, 20, 65, 0.466);
+   font-size: 20px;
+   margin: 40px;
+ 
+}
+
+ body { 
+	margin: 40px;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: rgba(42, 59, 48, 0.932);
+}
+
+ h1 {
+	text-align: center;      
+   	color: #28552dc5;
+	
+}
+ h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(8, 61, 10, 0.918);
+    
+}
+ h3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(7, 70, 18, 0.651);
+    font-style: italic;
+}
+ h4 {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: rgba(158, 32, 137, 0.315);
+    font-style: italic;
+}
+header > nav > ul > li > a {
+   background-color: rgba(182, 144, 119, 0.89);
+   color: rgba(59, 23, 47, 0.699);
+
+}
+header > nav > ul > li > a:hover{
+   background-color: rgba(196, 102, 58, 0.336);
+}
+p.first{
+   font-size: 20px;
+   text-align: center;
+}
+p {
+  font-size: 20px;
+}
+ footer {
+    text-align: center;
+    color: rgba(78, 104, 18, 0.767);
+ 
+}
+
+a{
+text-decoration: none;
+
+}
+
+p > a{
+font-family: Calibri; 
+color: rgba(31, 11, 23, 0.945); 
+text-decoration: none;
+
+}
+
+
+ul > li > a{
+   font-family: Calibri; 
+   color: rgba(20, 80, 28, 0.945);  
+}
+ul > li > a:hover{
+   
+   background-color: rgba(196, 102, 58, 0.336);  
+}
+
+p#links{
+    color:rgba(12, 37, 21, 0.932);
+	text-align: center;
+	background-color: rgba(112, 16, 69, 0.322);
+}
+p#links > a:hover{
+   
+   background-color: rgba(241, 219, 204, 0.863);
+}
