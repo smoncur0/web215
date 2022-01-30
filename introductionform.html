@@ -3,8 +3,8 @@
 <head>  
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Sydney Moncur - WEB215 - Introduction Form </title>
-    <link rel = "stylesheet" type = "text/css" href = "styles/default.css"/>
-    <script src ="scripts/introduction_form.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "/web215/styles/default.css"/>
+    <script src ="/web215/scripts/introduction_form.js"></script>
 
 </head>
 <body>
@@ -12,13 +12,12 @@
 
 <main>
        
-   <h2>Introduction Form</h2>
-       <h4 id="greeting">Welcome to Syd's Shoe Styles !</h4>
+	   <h2>Introduction Form</h2>
+       <h4 id="greeting">Welcome to Sydney's Pen Guide !</h4>
   <figure style="text-align: center;">
         <img src = "images/intro.png" alt = "Me"  height = "370" width = "327" />
         
   </figure>
-
 	
   <div class="form">
 
@@ -37,26 +36,16 @@
      <label for="personal_back">Personal Background: </label>
      <br>
      <textarea id="personal_back" rows="10" cols="40" required>Moved to Charlotte when I was 
-        three years old. I am a middle college student and
-         I began attending CPCC in 2019.</textarea>     
+        three years old. I am a middle college student and I began attending CPCC in 2019.</textarea>     
           
     <br>   
     <label for="academic_back">Academic Background: </label>
     <br>
-    <textarea id="academic_back" rows="10" cols="40" required> As I mentioned before I am a middle college student. I am currently in my last year of schooling.
+    <textarea id="academic_back" rows="10" cols="40" required> As I mentioned before I am a middle college student. 
+        I am currently in my last year of schooling.
         Hopefully I will graduate with my associates degree 
-        this May. </textarea> 
-<br>   
-    <label for="subject_background">Background in this subject: </label>
-    <br>
-    <textarea id="subject_background" rows="10" cols="40" required> 
-        The first time that I 
-         was exposed to coding was in middle school.
-         I signed up for the stem program as an elective
-         so that I could take it with orchestra.
-         I realized that I enjoyed coding after
-         completing a project in that program where 
-         I had to create my own game.  </textarea> 
+        this May.</textarea> 
+
 
     <br>
     <label for="computer_platform">Primary Computer Platform: </label>
@@ -69,25 +58,16 @@
     <br>
     <textarea id="course_list" rows="10" cols="40" required>
         CTS240-N850: Project Management - I need this course to finish my degree program.
-
         WEB215-N801: Adv Markup and Scripting - I need this course to finish my degree program and I think it will help with the efficiency of my coding.
-
         CSC251-N801: Advanced JAVA Programming - I need this course to finish my degree program.
-
 	    WEB250-N801: Database Driven Websites - I enjoy the process of creating a website and I also need it for my degree program. 
-
     
     <br>
     <label for="funny_item">Funny/Interesting item about yourself: </label>
     <br>
     <textarea id="funny_item" rows="10" cols="40" required>I have played the cello for 7 almost 8 years now.</textarea> 
-    <br>
-    <label for="also_share">I'd also like to share: </label>
-    <br>
-    <textarea id="also_share" rows="10" cols="40" required>During my free time I really enjoy cooking along with baking.</textarea> 
-    
-    <br>
-    <input type="button" id="submit" onclick="return introData()" value="Submit"/>
+    <br>	  
+    <input type="button" id="submit" onclick="return formData()" value="Submit"/>
 	  
     </form>
 </div> 
