@@ -67,6 +67,10 @@ p {
     color: rgba(109, 16, 59, 0.534);
  
 }
+p#tagline{
+   font-style: italic;
+	
+}
 
 a{
 text-decoration: none;
@@ -102,7 +106,6 @@ p#links > a:hover{
 
  p#footer_links{
    color:rgba(84, 72, 85, 0.932);
-   font-style: italic;
    text-align: center;
 
 }
