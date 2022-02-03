@@ -6,39 +6,45 @@ html {
    background-color: rgba(136, 20, 65, 0.466);
    font-size: 20px;
    margin: 25px;
- 
+
 }
 
  body { 
 	margin: 25px;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: rgba(42, 59, 48, 0.932);
+	color: rgba(104, 50, 95);
 }
 
  h1 {
 	text-align: center;      
-   	color: #28552dc5;
+   color: rgba(59, 23, 47, 0.699);
+	font-family: 'Cookie';
+   font-size: 60px;
 	
 }
  h2 {
     text-align: center;
-    font-size: 25px;
-    color: rgba(8, 61, 10, 0.918);
+    font-size: 20px;
+    color: rgba(59, 23, 47, 0.699);
+    font-family: Verdana;
     
 }
  h3 {
     text-align: center;
-    font-size: 25px;
-    color: rgba(7, 70, 18, 0.651);
+    font-size: 30px;
+    color:rgba(109, 16, 59, 0.534);
     font-style: italic;
+    font-family: sans-serif;
+  
 }
  h4 {
     text-align: center;
+    font-family: fantasy; 
     font-size: 1.2em;
     line-height: 1.5em;
-    color: rgba(158, 32, 137, 0.315);
-    font-style: italic;
+    color: rgba(59, 23, 47, 0.699);
+    font-family: 'Cookie';
 }
 header > nav > ul > li > a {
    background-color: rgba(182, 144, 119, 0.89);
@@ -57,7 +63,7 @@ p {
 }
  footer {
     text-align: center;
-    color: rgba(78, 104, 18, 0.767);
+    color: rgba(109, 16, 59, 0.534);
  
 }
 
@@ -68,7 +74,7 @@ text-decoration: none;
 
 p > a{
 font-family:  Verdana; 
-color: rgba(31, 11, 23, 0.945); 
+color: rgba(117, 26, 81, 0.945); 
 text-decoration: none;
 
 }
@@ -84,7 +90,7 @@ ul > li > a:hover{
 }
 
 p#links{
-    color:rgba(12, 37, 21, 0.932);
+   color:rgba(12, 37, 21, 0.932);
 	text-align: center;
 	background-color: rgba(112, 16, 69, 0.322);
 }
