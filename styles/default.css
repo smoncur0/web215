@@ -101,8 +101,8 @@ p#links > a:hover{
 
  p#footer_links{
    color:rgba(84, 72, 85, 0.932);
-
-	text-align: center;
+   font-style: italic;
+   text-align: center;
 
 }
  p#footer_links > a:hover{
