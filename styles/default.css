@@ -89,13 +89,24 @@ ul > li > a:hover{
    color: rgba(196, 102, 58, 0.336);  
 }
 
-p#links{
-   color:rgba(12, 37, 21, 0.932);
+p#links {
+   color:rgba(84, 72, 85, 0.932);
 	text-align: center;
-	background-color: rgba(112, 16, 69, 0.322);
+
 }
 p#links > a:hover{
    
+   color: rgba(241, 219, 204, 0.863);
+}
+
+ p#footer_links{
+   color:rgba(84, 72, 85, 0.932);
+
+	text-align: center;
+
+}
+ p#footer_links > a:hover{
+
    color: rgba(241, 219, 204, 0.863);
 }
 figcaption{
