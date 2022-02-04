@@ -116,3 +116,17 @@ p#links > a:hover{
 figcaption{
 	font-style: italic;
 }
+p#validation > a{
+
+  background-color:rgba(59, 23, 47, 0.699);
+
+  color:  rgba(241, 219, 204, 0.863);
+
+}
+p#validation > a:hover{
+
+   color:rgba(59, 23, 47, 0.699);
+ 
+   background-color:  rgba(241, 219, 204, 0.863);
+ 
+ }
