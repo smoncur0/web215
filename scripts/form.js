@@ -10,10 +10,36 @@ function formData() {
     let funny_item = "Funny/Interesting item about yourself: " + document.getElementById('funny_item').value;
     let also_share = "I'd also like to share: " + document.getElementById('also_share').value;
     document.getElementById("greeting").textContent = "Welcome to Sydney's Pen Guide, " + first_name + " " + last_name + "!";
-    let introData = [personal_back, academic_back, subject_background, computer_platform, course_list, funny_item, also_share];
+   
+   if(document.getElementById('ballpoint').checked) {
+    document.getElementById("pen").innerHTML
+        =  "You are Team " +document.getElementById("ballpoint").value + ".";
+    
+    }
+  else if(document.getElementById('gel').checked) {
+    document.getElementById("pen").innerHTML
+    = "You are Team " + document.getElementById("gel").value + ".";
+        
+   }
+   
+   if(document.getElementById('yes').checked) {
+    document.getElementById("like").innerHTML
+        =  "Did you like this form? " + document.getElementById("yes").value;
+    
+  }
+ else if(document.getElementById('no').checked) {
+    document.getElementById("like").innerHTML
+    = "Did you like this form? " + document.getElementById("no").value;
+        
+  }
+    let introData = [personal_back, academic_back, subject_background, computer_platform, course_list, funny_item, also_share,pen,like];
     display(introData);
   }
   
+
+
+
+
   
   function display(introData) {
   
