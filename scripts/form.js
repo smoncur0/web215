@@ -9,46 +9,47 @@ function formData() {
     let course_list = "Courses I'm Taking, and Why: " + document.getElementById('course_list').value;
     let funny_item = "Funny/Interesting item about yourself: " + document.getElementById('funny_item').value;
     let also_share = "I'd also like to share: " + document.getElementById('also_share').value;
+    let select_value = document.querySelector( 'input[name="pen"]:checked');
+    let checked_box = document.querySelectorAll('input[name="like"]:checked');
+    let choice = [];
+    
+    //process value for radio buttons 
+    if(select_value != null) {
+      var pen = ("You are Team: " + select_value.value);
+      }
+
+
+    //process choice for checkboxes  
+    checked_box.forEach((checkbox) => {
+      choice.push(checkbox.value)
+       });
+
+    var answer = ("Did you like this form? " + choice);
+
+
+
     document.getElementById("greeting").textContent = "Welcome to Sydney's Pen Guide, " + first_name + " " + last_name + "!";
-   
-   if(document.getElementById('ballpoint').checked) {
-    document.getElementById("pen").innerHTML
-        =  "You are Team " +document.getElementById("ballpoint").value + ".";
-    
-    }
-  else if(document.getElementById('gel').checked) {
-    document.getElementById("pen").innerHTML
-    = "You are Team " + document.getElementById("gel").value + ".";
-        
-   }
-   
-   if(document.getElementById('yes').checked) {
-    document.getElementById("like").innerHTML
-        =  "Did you like this form? " + document.getElementById("yes").value;
-    
-  }
- else if(document.getElementById('no').checked) {
-    document.getElementById("like").innerHTML
-    = "Did you like this form? " + document.getElementById("no").value;
-        
-  }
-    let introData = [personal_back, academic_back, subject_background, computer_platform, course_list, funny_item, also_share,pen,like];
+  
+    let introData = [personal_back, academic_back, subject_background, computer_platform, course_list, funny_item, also_share, pen, answer];
+
+     
+ 
     display(introData);
   }
   
 
-
-
-
+  
   
   function display(introData) {
-  
+    refresh = document.querySelectorAll('li');
+    refresh.forEach((li) => li.remove())
     for (let i = 0; i < introData.length; i++) {
         let element_1 = document.createElement('li');
         let text = document.createTextNode(introData[i]);
         element_1.appendChild(text);
         let pos_new = document.getElementsByTagName('ul')[0];
         pos_new.appendChild(element_1);
+
     }
-  
+
   }
