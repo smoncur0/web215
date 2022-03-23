@@ -84,6 +84,11 @@ text-decoration: none;
 
 }
 
+form#introduction_form > textarea{
+   font-size: 15px;
+   font-family: verdana;
+ }
+
 
 ul > li > a{
    font-family:  Verdana; 
