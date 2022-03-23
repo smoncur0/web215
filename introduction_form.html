@@ -22,6 +22,8 @@
   </figure>
 
 	
+
+	
   <div class="form">
 
   <form id="introduction_form" style="text-align: center;">
@@ -38,27 +40,16 @@
 
      <label for="personal_back">Personal Background: </label>
      <br>
-     <textarea id="personal_back" rows="10" cols="40" required>Moved to Charlotte when I was 
-        three years old. I am a middle college student and
-         I began attending CPCC in 2019.</textarea>     
+     <textarea id="personal_back" rows="5" cols="40" required>Moved to Charlotte when I was years old. I am a middle college student and I began attending CPCC in 2019.</textarea>     
           
     <br>   
     <label for="academic_back">Academic Background: </label>
     <br>
-    <textarea id="academic_back" rows="10" cols="40" required> As I mentioned before I am a middle college student. I am currently in my last year of schooling.
-        Hopefully I will graduate with my associates degree 
-        this May. </textarea> 
+    <textarea id="academic_back" rows="6" cols="40" required> As I mentioned before I am a middle college student. I am currently in my last year of schooling. Hopefully I will graduate with my associates degree this May. </textarea> 
 <br>   
     <label for="subject_background">Background in this subject: </label>
     <br>
-    <textarea id="subject_background" rows="10" cols="40" required> 
-        The first time that I 
-         was exposed to coding was in middle school.
-         I signed up for the stem program as an elective
-         so that I could take it with orchestra.
-         I realized that I enjoyed coding after
-         completing a project in that program where 
-         I had to create my own game.  </textarea> 
+    <textarea id="subject_background" rows="6" cols="40" required>The first time that I was exposed to coding was in middle school. I signed up for the stem program as an elective so that I could take it with orchestra. I realized that I enjoyed coding after completing a project in that program where I had to create my own game.</textarea> 
 
     <br>
     <label for="computer_platform">Primary Computer Platform: </label>
@@ -69,24 +60,34 @@
     <br>
     <label for="course_list">Courses I'm Taking & Why: </label>
     <br>
-    <textarea id="course_list" rows="10" cols="40" required>
-        CTS240-N850: Project Management - I need this course to finish my degree program.
-
-        WEB215-N801: Adv Markup and Scripting - I need this course to finish my degree program and I think it will help with the efficiency of my coding.
-
-        CSC251-N801: Advanced JAVA Programming - I need this course to finish my degree program.
-
-	    WEB250-N801: Database Driven Websites - I enjoy the process of creating a website and I also need it for my degree program. </textarea> 
+    <textarea id="course_list" rows="10" cols="40" required>CTS240-N850: Project Management - I need this course to finish my degree program. WEB215-N801: Adv Markup and Scripting - I need this course to finish my degree program and I think it will help with the efficiency of my coding. CSC251-N801: Advanced JAVA Programming - I need this course to finish my degree program. WEB250-N801: Database Driven Websites - I enjoy the process of creating a website and I also need it for my degree program.</textarea>
 
     
     <br>
     <label for="funny_item">Funny/Interesting item about yourself: </label>
     <br>
-    <textarea id="funny_item" rows="10" cols="40" required>I have played the cello for 7 almost 8 years now.</textarea> 
+    <textarea id="funny_item" rows="2" cols="40" required>I have played the cello for 7 almost 8 years now.</textarea> 
     <br>
     <label for="also_share">I'd also like to share: </label>
     <br>
-    <textarea id="also_share" rows="10" cols="40" required>During my free time I really enjoy cooking along with baking.</textarea> 
+    <textarea id="also_share" rows="2" cols="40" required>During my free time I really enjoy cooking along with baking.</textarea><br>   
+  
+    <label for="pen"> Team Ballpoint or Team Gel? </label><br>
+
+	<input type="radio" id="ballpoint" name="pen" value="ballpoint">
+	<label for="ballpoint">Ballpoint</label>   
+	<input type="radio" id="gel" name="pen" value="gel">
+	<label for="gel">Gel</label><br>
+
+    <br> 
+	<label for="like">Did you like this form?</label>
+    <br>
+	<input type="checkbox" id="yes" name="like" value="Yes">
+	<label for="yes">Yes</label><br>
+	<input type="checkbox" id="no" name="like" value="no">
+	<label for="no">No</label>
+
+    <br>
     <br>
     <input type="button" id="submit" onclick="return formData()" value="Submit"/>
 	  
@@ -104,6 +105,12 @@
    
   
 </main>
+
+
+
+   
+  
+
 
 
 <div data-include="components/footer_links.html"></div>
