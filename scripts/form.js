@@ -24,7 +24,7 @@ function formData() {
       choice.push(checkbox.value)
        });
 
-    var answer = ("Did you like this form? " + choice);
+    var answer = ("Paper Preferences: " + choice);
 
 
 
